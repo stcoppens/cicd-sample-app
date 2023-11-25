@@ -1,16 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-directory="tempdir"
-
-if [ ! -d "$directory" ]; then
-    mkdir "$directory"
-    echo "Directory created: $directory"
-else
-    echo "Directory already exists: $directory"
-fi
-
-#mkdir tempdir
+mkdir tempdir
 mkdir tempdir/templates
 mkdir tempdir/static
 
